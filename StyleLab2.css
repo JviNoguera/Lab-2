@@ -65,6 +65,9 @@ h5 {
 .nav-bar {
     background-color: var(--Darkblue);
 }
+ul {
+    list-style-type: none;
+}
 .nav-bar a {
     color: white;
     font-size: 2em;
@@ -131,5 +134,10 @@ h2 {
 .footer a {
 
     color: var(--Blue);
-    text-decoration: none; /* mirar guiones */
+    text-decoration: none; /* mirar marker de UL - ver nota */
+}
+
+ul li {
+    list-style-type: none;
+    text-align: center;
 }
